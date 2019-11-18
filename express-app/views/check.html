@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            check
+        </title>
+    </head>
+    <body>
+            <form id="email-form" mehtod="POST">
+                    <input type="email" class="" id="email" placeholder="Enter your Email">
+                    <input type='submit' value='submit' onclick="submitToAPI()">
+                </form>
+             
+                <script
+                              src="https://code.jquery.com/jquery-3.4.1.js"
+                              integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+                              crossorigin="anonymous"></script>
+                        
+<script>
+        function submitToAPI() {
+
+                var xhr = new XMLHttpRequest();
+                 var url = "http://ec2-13-233-208-175.ap-south-1.compute.amazonaws.com:8080/index/newWebSubscribe";
+                 xhr.open("POST", url, true);
+                 xhr.setRequestHeader("Content-Type", "application/json");
+                    var email = $("#email").val();
+                    var d = new Date();
+                    var datestring = d.getDate()  + "-" + (d.getMonth()+1) + "-" + d.getFullYear();
+                    var data = {
+                     subs_id : Math.floor((Math.random() * 1000) + 1),
+                     email : email,
+                     date : datestring
+                    };
+                     xhr.send(data);
+                 }
+             </script>
+         
+    </body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSV to Email</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+
+    <div style="background: black;color: white;text-align: center;padding: 10px;">
+      <h3>Welcome to FM Email Sender</h3>
+      <button class='button' style='padding: 3px 15px;border-radius: 1rem;border: none;color: white;background: #0069d9;font-size: 16px;font-weight: 450;'>Send
+        Emails</button>
+      <button class='button' style='padding: 3px 15px;border-radius: 1rem;border: none;color: white;background: #0069d9;font-size: 16px;font-weight: 450;'>Update
+        Spreadsheet</button>
+    </div>
+  </header>
+  <% if(result) {%>
+  <div class='col col-sm-6 offset-sm-3' style="margin-top: 10px;margin-bottom: 5px;background: lightgreen;padding: 5px;text-align: center;border-radius: 10px;">
+    <p style='color: black;font-size: 15px;font-weight: 400;margin: 5px;'>
+      <%= result%>
+    </p>
+  </div>
+  <% } %>
+  <div class="container-fluid">
+    <div class='row'>
+      <div class="col col-sm-6 offset-sm-3 row-content" style="margin-top:1rem;background: #eeee;padding: 15px;text-align: center;font-size: 20px;border-radius: 15px;">
+        <% if(temp=='0') { %>
+        <div id="loading">
+          <img id="loading-image" src="lg.ajax-spinner-gif.gif" alt="Loading..." />
+        </div>
+
+        <form action='/' method='POST' class='was-validation'>
+          <div class="form-group">
+            <label for="input-file">Select your Client Type</label><br>
+            <select name='type' class="custom-select custom-select-sm" style='width: 75%;margin-left: -1rem;text-align-last: center;background-color: beige;'>
+              <option selected>---- Select ----</option>
+              <option value='1'>Exports</option>
+              <option value='2'>Non-Exports</option>
+              <option value='3'>option 3</option>
+              <option value='4'>option 4</option>
+              <option value='5'>Internal Testing Team</option>
+              <option value='6'>Internal All</option>
+              <option value='7'>Option 7</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input-file">Set your Dummy Email id Here</label><br>
+            <input id='input' type="text" class='form-control' placeholder="Enter dummy Email id" name='dummy' required>
+          </div>
+          <div class="form-group">
+            <label for="input-file">Set your Email's Subject</label><br>
+            <input id='input' type="text" class='form-control' placeholder="Enter Email's Subject" name='subject'
+              required>
+          </div>
+          <div class="form-group">
+            <label for="input-file">Upload Your HTML Content</label><br>
+            <input type="file" id="input-file" accept=".html">
+          </div>
+          <p>Or</p>
+          <div class="form-group">
+            <label for="">Set Your Email Here</label>
+            <textarea style='width: 75%;text-align: center;margin-left: 5rem;background: beige;' class="form-control"
+              id="content-target" rows="8" name='setmail' required><%= mail%></textarea>
+          </div>
+          <div class='form-group '>
+            <input id='status' type='hidden' name='status' value='1'>
+            <button id='send_mail' class='btn btn-success' type="submit">SUBMIT</button>
+          </div>
+        </form>
+        <%} else {%>
+        <div id="loading">
+          <img id="loading-image" src="lg.ajax-spinner-gif.gif" alt="Loading..." />
+        </div>
+        <form action='/' method='POST' class='was-validation'>
+          <div class="form-group">
+            <label for="input-file">Select your Client Type</label><br>
+            <select name='type' class="custom-select custom-select-sm" style='width: 75%;margin-left: -1rem;text-align-last: center;background-color: beige;'>
+              <option selected>
+                <%= details.type%>
+              </option>
+              <option value='1'>Exports</option>
+              <option value='2'>Non-Exports</option>
+              <option value='3'>option 3</option>
+              <option value='4'>option 4</option>
+              <option value='5'>Internal Testing Team</option>
+              <option value='6'>Internal All</option>
+              <option value='7'>Option 7</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="input-file">Set your Email Range Here</label><br>
+            <input id='input' type="number" class='form-control' placeholder="Starting From" value='<%= details.from%>'
+              min='0' name='from' required>
+            <input id='input' type="number" class='form-control' placeholder="Ending To" name='to' min='0' max='<%= details.to%>'
+              required>
+          </div>
+          <div class="form-group">
+            <label for="input-file">Set your Email's Subject</label><br>
+            <input id='input' type="text" class='form-control' placeholder="Enter Email's Subject" value='<%= details.subject%>'
+              name='subject' required>
+          </div>
+          <div class="form-group">
+            <label for="input-file">Upload Your HTML Content</label><br>
+            <input type="file" id="input-file" accept=".html">
+          </div>
+          <p>Or</p>
+          <div class="form-group">
+            <label for="">Set Your Email Here</label>
+            <textarea style='width: 75%;text-align: center;margin-left: 5rem;background: beige;' class="form-control"
+              id="content-target" rows="8" name='setmail' required><%= details.mail%></textarea>
+          </div>
+          <div class='form-group '>
+            <input type='hidden' name='role' value='first'>
+            <input id='status' type='hidden' name='status' value='0'>
+            <button id='send_mail' class='btn btn-success' type="submit">Confirm and Send</button>
+          </div>
+        </form>
+        <% } %>
+      </div>
+      <div class='col col-sm-3'>
+        <div style='text-align: center;background-color: beige;margin-top: 1rem;padding: 5px;padding-bottom: 30px;border-radius: 8px;'>
+          <h4>Download Files</h4>
+          <div style='background: #229422;margin-top: 1rem;width: 55%;color: #eeee;padding: 10px;margin-left: 5rem;text-align: center;border-radius: 8px;border: 1px solid green;'>
+            <a href="http://localhost:3001/static/debug.csv" style='color: #eeee;' download='debug.csv'><i class="fa fa-download"></i>
+              Download Log File</a>
+          </div>
+          <div style='background: #d82b10f2;margin-top: 1rem;width: 55%;color: #eeee;padding: 10px;margin-left: 5rem;text-align: center;border-radius: 8px;border: 1px solid red;'>
+            <a href="http://localhost:3001/static/error.csv" style='color: #eeee;' download='error.csv'><i class="fa fa-download"></i>
+              Download Error File</a>
+          </div>
+        </div>
+        <div style='text-align: center;background-color: #ebf9ee;margin-top: 1rem;padding: 5px;padding-bottom: 30px;border-radius: 8px;'>
+          <h4>Clear Files</h4>
+          <form method='POST' action='/clear'>
+            <input type='hidden' name='type' value='log'>
+            <div style='margin-top: 1rem;width: 55%;padding: 10px;margin-left: 5rem;text-align: center;border-radius: 8px;border: 1px solid green;'>
+              <button style='background: none;border: none;color: green;' type='submit'><i class="fa fa-file-excel-o"></i>
+                Clear Log File</button>
+            </div>
+          </form>
+          <form method='POST' action='/clear'>
+            <input type='hidden' name='type' value='error'>
+            <div style='margin-top: 1rem;width: 55%;padding: 10px;margin-left: 5rem;text-align: center;border-radius: 8px;border: 1px solid red;'>
+              <button style='background: none;border: none;color: red;' type='submit'><i class="fa fa-file-excel-o"></i>
+                Clear error File</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script>
+      document.getElementById('input-file')
+        .addEventListener('change', getFile)
+
+      function getFile(event) {
+        const input = event.target
+        if ('files' in input && input.files.length > 0) {
+          for (i = 0; i < input.files.length; i++) {
+            placeFileContent(
+              document.getElementById('content-target'),
+              input.files[i])
+          }
+        }
+      }
+      var array = [];
+      function placeFileContent(target, file) {
+        readFileContent(file).then(content => {
+          array.push(content);
+          console.log(array);
+          target.value = array
+        }).catch(error => console.log(error))
+      }
+
+      function readFileContent(file) {
+        const reader = new FileReader()
+        return new Promise((resolve, reject) => {
+          reader.onload = event => resolve(event.target.result)
+          reader.onerror = error => reject(error)
+          reader.readAsText(file)
+        })
+      }
+
+    </script>
+
+    <script language="javascript" type="text/javascript">
+      window.onload = function () { document.getElementById("loading").style.display = "none" }
+
+      $(document).ready(function () {
+        var myVar;
+        $("#send_mail").click(function () {
+          myFunction(this);
+        });
+
+        function myFunction(div) {
+          $("#loading").toggle();
+          $(div).toggle();
+
+        }
+
+
+      });
+
+    </script>
+</body>
+
+
+
+</html>

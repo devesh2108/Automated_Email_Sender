@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style_sp.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script>
+      var jQuery = $ = require('jquery');
+          require('electron-virtual-keyboard/client')(window, jQuery);
+  </script>
+  <title>Fabric Monde Email Campaign Tool</title>
+</head>
+
+<body >
+  <div id="container" class="text-center">
+    <img src="../assets/logo.png" style="height: 100px; padding: 10px;padding-bottom: 20px;">
+    <div id=flip>
+        <div><div>TOOL</div></div>
+        <div><div>CAMPAIGN</div></div>
+        <div><div>EMAIL</div></div>
+    </div>
+    <div class="row text-center" style="padding:2% 7%">
+      <table class="table" >
+        <tr>
+          <td>
+              <button class="form-control" id="server1">Start Server 1</button>
+          </td>
+          <td>
+              <button class="form-control" id="server2">Start Server 2</button>
+          </td>
+          <td>
+              <button class="form-control" id="server3">Start Server 3</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p class="text-center">www.fabricmonde.com</p>    
+  </div>
+  <script>
+      document.querySelector('#server1').addEventListener('click', function () {
+          const {
+              ipcRenderer
+          } = require('electron')
+          ipcRenderer.send('startServer1', {
+                      key: "url",
+                      value: "no value"
+                  })
+      });
+      document.querySelector('#server2').addEventListener('click', function () {
+          const {
+              ipcRenderer
+          } = require('electron')
+          ipcRenderer.send('startServer2', {
+                      key: "url",
+                      value: "no value"
+                  })
+      });
+      document.querySelector('#server3').addEventListener('click', function () {
+          const {
+              ipcRenderer
+          } = require('electron')
+          ipcRenderer.send('startServer3', {
+                      key: "url",
+                      value: "no value"
+                  })
+      });
+  </script>
+  
+</body>
+
+</html>

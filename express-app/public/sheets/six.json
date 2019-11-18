@@ -1,0 +1,92 @@
+[
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;EQMWUEl6YCt7ImBvWhAOTA..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cokwr</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: siva@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cokwr'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cokwr'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>siva@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cokwr",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "siva@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;SggRU0h-Zit7ImBvWEsFQg..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cpzh4</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: shobna@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cpzh4'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cpzh4'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>shobna@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cpzh4",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "shobna@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;HwkRDEYvOCt7ImBvWxcFSA..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cre1l</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: manilla@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cre1l'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cre1l'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>manilla@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cre1l",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "manilla@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;EQgTA0J-YSt7ImBvWk1WSQ..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/chk2m</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: jenny@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/chk2m'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/chk2m'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>jenny@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/chk2m",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "jenny@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;SFJAARosPyt7ImBvWEgEEg..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/ciyn3</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: jyothi@fabricmonde.com, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/ciyn3'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/ciyn3'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>jyothi@fabricmonde.com</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/ciyn3",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "jyothi@fabricmonde.com",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;RV4HAhIobCt7ImBvWhYFGQ..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/ckd7g</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: hema@fabricmonde.com, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/ckd7g'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/ckd7g'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>hema@fabricmonde.com</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/ckd7g",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "hema@fabricmonde.com",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;EQgQDB4lMyt7ImBvW1ZWEg..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/clrrx</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: priyanka@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/clrrx'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/clrrx'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>priyanka@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/clrrx",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "priyanka@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;EV1AA0AgYCt7ImBvWktSEQ..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cyevm</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: vishnu@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cyevm'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cyevm'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>vishnu@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cyevm",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "vishnu@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  },
+  {
+    "_xml": "<entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gsx='http://schemas.google.com/spreadsheets/2006/extended' xmlns:gd='http://schemas.google.com/g/2005' gd:etag='&quot;G1ZAVx19Oit7ImBvWB4ATA..&quot;'><id>https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cztg3</id><updated>2019-08-06T05:40:40.825Z</updated><app:edited xmlns:app='http://www.w3.org/2007/app'>2019-08-06T05:40:40.825Z</app:edited><category scheme='http://schemas.google.com/spreadsheets/2006' term='http://schemas.google.com/spreadsheets/2006#list'/><title>Fabric Monde</title><content>emailid: ranjith@fabricmonde.in, status: TRUE, segment: 6</content><link rel='self' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cztg3'/><link rel='edit' type='application/atom+xml' href='https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/private/full/cztg3'/><gsx:name>Fabric Monde</gsx:name><gsx:emailid>ranjith@fabricmonde.in</gsx:emailid><gsx:status>TRUE</gsx:status><gsx:segment>6</gsx:segment></entry>",
+    "id": "https://spreadsheets.google.com/feeds/list/1l5-wV7rKyzdVlnl2ItAxY9DhfMG4UleXa6PQPx7cVgo/6/cztg3",
+    "app:edited": "2019-08-06T05:40:40.825Z",
+    "_links": [],
+    "name": "Fabric Monde",
+    "emailid": "ranjith@fabricmonde.in",
+    "status": "TRUE",
+    "segment": "6"
+  }
+]

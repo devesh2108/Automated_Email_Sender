@@ -1,0 +1,27 @@
+{
+  "name": "csv2json",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.475.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap4": "0.0.1-security",
+    "convert-csv-to-json": "0.0.14",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "google-spreadsheet": "^2.0.7",
+    "html-minifier": "^4.0.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "electron": "^5.0.8"
+  }
+}
