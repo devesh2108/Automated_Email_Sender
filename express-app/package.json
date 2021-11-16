@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "aws-sdk": "^2.475.0",
+    "aws-sdk": "^2.814.0",
     "bootstrap": "^4.3.1",
     "bootstrap4": "0.0.1-security",
     "convert-csv-to-json": "0.0.14",
